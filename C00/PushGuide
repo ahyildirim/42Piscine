@@ -1,0 +1,10 @@
+1- Intra üzerinden projeye kaydolun.
+2- Reponuzun oluşmasını bekleyin.
+3- Repo linkini kopyalayıp terminal'e "git clone <reponuzun linki> dosyaismi" şeklinde girin.
+4- Masaüstünüzde "dosyaismi" şeklinde oluşan dosyanın içine projeniz için istenen dosyaları atın.
+5- "git status" yazdığınızda attığınız dosyaların kırmızı bir şekilde gözüktüğünü göreceksiniz. (.DS_Store dosyasının olup olmamasının bir önemi yoktur, dert etmeyin.)
+6- "git add <dosyaismi>" yaptığınızda hangi dosyanın adını girdiyseniz o dosya bir dahaki "git status" yazdığınızda yeşil gözükecek. Böyle böyle tüm dosyalarınızı ekleyin.
+7- Tüm dosyaları tek kodda eklemek isterseniz "git add *" yapabilirsiniz.
+8- "git status" yazdığınızda tüm ex dosyalarınızın yeşil olarak yandığından emin olun ve sonrasında "git commit -m 'istediğiniz bir mesaj'" yazın.
+9- Artık dosyalarınız commitlendi ve pushlanmaya hazır. "git push" yazdığınızda tüm dosyalarınız artık istenilen repoya kopyalanmıştır.Bir daha "git clone <reponuzun linki> dosyaismi" yazarak düzgün bir şekilde pushladığınızdan emin olun
+10- Artık proje sayfanızdan finishleyip evo alabilirsiniz.
